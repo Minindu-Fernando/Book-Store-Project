@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:#FF7D06 ;
+    color: rgb(16, 16, 17);
+    text-align: center;
+    padding: 1rem;
+
+}
+
+nav{
+    top: 0;
+    background-color: #FFA959;
+    padding: 1rem;
+    position: sticky;
+}
+
+nav a{
+    color: #0b0b0b;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-style: bold;
+    font-weight: 600;
+}
+
+.book-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+.book-card{
+    background-color: #F7DAA1;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#addToCartBtn{
+    background-color: #FF7D06;
+    border: none;
+    color:black;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#addToCartBtn:hover{
+    background-color: #070707;
+    color: aliceblue;
+}
+.book-card:hover{
+  background-color: #f6d4b5;
+}
+
+footer{
+    background-color: #FF7D06;
+    padding: 50px;
+    text-align: center;
+}
+
